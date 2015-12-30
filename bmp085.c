@@ -15,8 +15,23 @@
 
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- *
- */
+
+ Circuit detail:
+	Using a Spark Fun Barometric Pressure Sensor - BMP085 breakout board
+	link: https://www.sparkfun.com/products/9694
+	This comes with pull up resistors already on the i2c lines.
+	BMP085 pins below are as marked on the Sparkfun BMP085 Breakout board
+
+	SDA	- 	P1-03 / IC20-SDA
+	SCL	- 	P1-05 / IC20_SCL
+	XCLR	- 	Not Connected
+	EOC	-	Not Connected
+	GND	-	P1-06 / GND
+	VCC	- 	P1-01 / 3.3V
+	
+	Note: Make sure you use P1-01 / 3.3V NOT the 5V pin.
+*/
+
 
 #include <stdio.h>
 #include <errno.h>
