@@ -22,7 +22,7 @@
  * This is a test program, showing the usage of the library
  */
  
- // usare: gcc -o main_wsread main_wsread.c bmp085.c -lbcm2835 -lrt 
+ // usare: gcc -o main_wsread main_wsread.c bmp085.c -lbcm2835 -lrt -lm
  
 #include <stdio.h>
 #include <string.h>
